@@ -18,3 +18,4 @@ export * from "./nats/bases/base-publisher";
 export * from "./nats/events/ticket-created-event";
 export * from "./nats/events/ticket-updated-event";
 export * from "./nats/subjects/index";
+export * from "./nats/types/order-status";
