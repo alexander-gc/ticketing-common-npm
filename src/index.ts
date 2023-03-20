@@ -15,7 +15,9 @@ export * from "./middlewares/validate-request";
 /* NATS - Event Bus Routes */
 export * from "./nats/bases/base-listener";
 export * from "./nats/bases/base-publisher";
-export * from "./nats/events/ticket-created-event";
-export * from "./nats/events/ticket-updated-event";
 export * from "./nats/subjects/index";
 export * from "./nats/types/order-status";
+export * from "./nats/events/ticket-created-event";
+export * from "./nats/events/ticket-updated-event";
+export * from "./nats/events/order-created-event";
+export * from "./nats/events/order-cancelled-event";
